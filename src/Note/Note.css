@@ -1,0 +1,37 @@
+.note{
+    background-color: rgb(3,15,31);
+    
+    margin: 0 auto;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.title{
+    
+    color: rgb(189,189,189);
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.title:hover{
+    color: rgb(194, 165, 3);
+}
+
+.date{
+    padding-bottom: 6px;
+}
+
+.delete{
+   padding: 5px;
+   font-size: 14pt;
+    width: 100%;
+    background-color: rgb(4,26,58);
+    color: rgb(189,189,189);
+    border: none;
+}
+
+.delete:hover{
+    background-color: rgb(207, 1, 1);
+    cursor: pointer;
+}
