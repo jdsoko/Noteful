@@ -1,0 +1,16 @@
+.back{
+    width: 21.4%;
+    padding: 5px;
+   font-size: 14pt;
+    background-color: rgb(4,26,58);
+    color: rgb(189,189,189);
+    border: none;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.back:hover{
+    cursor: pointer;
+    color: rgb(194, 165, 3);
+}

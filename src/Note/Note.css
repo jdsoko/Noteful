@@ -1,17 +1,20 @@
 .note{
     background-color: rgb(3,15,31);
-    
+    text-align: left;
     margin: 0 auto;
-    width: 350px;
+    width: 18%;
     margin-bottom: 20px;
+    padding-top: 6px;
+    
 }
 
 .title{
-    
     color: rgb(189,189,189);
     text-decoration: none;
     font-size: 16pt;
     font-weight: bold;
+    padding-left: 8px;
+    
 }
 
 .title:hover{
@@ -19,7 +22,9 @@
 }
 
 .date{
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 8px;
 }
 
 .delete{

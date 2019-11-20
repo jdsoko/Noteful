@@ -6,6 +6,7 @@ import Nav from './Nav/Nav';
 import { Link } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import FolderRoute from './FolderRoute/FolderRoute';
+import NoteFull from './NoteFull/NoteFull';
 
 class App extends Component{
   state={
@@ -64,7 +65,10 @@ render(){
       >
       </Route>
 
-      
+      <Route 
+        path='/note/:noteId'
+        render={(props) => <NoteFull {...props} state={this.state} />}
+      />
     
     </main> 
     </div>

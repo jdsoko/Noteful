@@ -14,3 +14,8 @@
     width: 150px;
 }
 
+.nav .active{
+    font-weight: bold;
+    border-bottom: 3px solid rgb(189,189,189);
+}
+

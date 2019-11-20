@@ -22,7 +22,7 @@ export default class FolderRoute extends Component{
         ))
         return(
             <div>
-            {renderFolderName}
+            
             {renderNotes}
            
            </div>
